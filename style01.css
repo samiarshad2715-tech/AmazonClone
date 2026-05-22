@@ -1,0 +1,506 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    background-color: #0f1111;
+    height: 60px;
+    align-items: center;
+    color: #FFFF;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    background-image: url(/Resources/amazon_logo.png);
+    height: 60px;
+    width: 114px;
+    /* width:7.125rem; */
+    background-size: cover;
+    margin-left: 4px;
+}
+
+.logo {
+    height: 50px;
+    /* width:100%; */
+    width: 100%;
+    margin: 1px;
+    /* background-size: cover; */
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border :hover {
+    border: 1.5px solid white;
+}
+
+/* box2 */
+.add1 {
+    color: #CCCCCC;
+    size: 0.85rem;
+    margin-left: 15px;
+    font-size: 13.7px;
+    line-height: 10px;
+    /* font-weight: 400; */
+    font-family: 'Amazon Ember V2', sans-serif;
+}
+
+.add2 {
+    /* size: 1rem; */
+    margin-left: 3px;
+    font-weight: 700;
+    font-size: 0.95rem;
+    font-family: 'Amazon Ember V2', sans-serif;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+    /* margin-top:8px; */
+}
+
+/* With Chatgpt */
+.nav-address {
+    position: relative;
+    /* width:88.638px; */
+    /* margin-left: 7px; */
+    margin-right: 2px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    /* cursor: pointer; */
+}
+
+/* box3 */
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    margin-left: 10px;
+    margin-right: 7px;
+    /* width: 901.312px; */
+    width: 795px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.search-select {
+    width: 51.6px;
+    /* height: 40px; */
+    background-color: #E6E6E6;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input {
+    width: 797.713px;
+    /* width:100%; */
+    font-size: 1rem;
+    border: none;
+    font-family: 'Amazon Ember V2', sans-serif;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    color: #0f1111;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.nav-search :hover {
+    border: 2px solid orange;
+}
+
+/* box4 */
+.lang-select {
+    /* width: 45.375px; */
+    height: 50px;
+    font-size: 0.95rem;
+    color: #fff;
+    font-weight: 700;
+    background-color: #0f1111;
+    border: #0f1111;
+    font-family: 'Amazon Ember V2', sans-serif;
+}
+
+.nav-lang {
+    width: 60.375px;
+    display: flex;
+    align-items: center;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 4px;
+}
+
+/* box5 */
+.nav-signin {
+    margin-left: 3px;
+    /* width:141.525px; */
+}
+
+span {
+    font-size: 0.7rem;
+    font-family: 'Amazon Ember V2', sans-serif;
+    font-weight: 400;
+}
+
+.nav-second {
+    line-height: 15px;
+    font-size: 0.91rem;
+    font-weight: 700;
+    font-family: 'Amazon Ember V2', sans-serif;
+}
+
+/* box6 */
+.nav-return {
+    margin-left: 3px;
+}
+
+/* box7 */
+.nav-cart {
+    /* line-height:15px; */
+    font-weight: 700;
+    font-size: 0.91rem;
+    font-family: 'Amazon Ember V2', sans-serif;
+    /* width:28px;
+    height: 15px; */
+}
+
+.nav-cart i {
+    font-size: 30px;
+    /* width:38px;
+    height:26px; */
+}
+
+/* Panel */
+.panel {
+    height: 39px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-all {
+    font-weight: 700;
+    /* font-family: 'Amazon Ember V2', sans-serif;  */
+    font-size: 0.91rem;
+    white-space: nowrap;
+    line-height: 1em;
+}
+
+.panel-ops p {
+    /* display: flex; */
+    display: inline;
+    font-size: 0.91rem;
+    margin-left: 15px;
+    font-family: 'Amazon Ember V2', sans-serif;
+    /* font-weight: 700; */
+    line-height: 1em;
+}
+
+.panel-ops {
+    width: 79%;
+}
+
+.panel-deals {
+    font-family: 'Amazon Ember V2', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    line-height: 1em;
+}
+
+/* Main */
+/* Hero-Section */
+.hero-section {
+    background-image: url(Resources/amazonproject1.jpg);
+    height: 315px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    /* left:10px; 
+    right: 10px; 
+    position:absolute; */
+    vertical-align: top;
+
+}
+
+.hero-msg {
+    background-color: white;
+    color: #0f1111;
+    height: 40px;
+    width: 1460px;
+    /* width:80%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+
+.hero-msg p {
+    font-family: 'Amazon Ember V2', sans-serif;
+    font-size: 0.91rem;
+}
+
+.hero-msg a {
+    color: #2162A1;
+}
+
+/* Shop-section */
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: #FF5E00; */
+    background-color: #e2e7e6;
+    flex-wrap: wrap;
+    /* margin-bottom: 10px; */
+}
+
+.box {
+    /* border:2px solid black; */
+    background-color: white;
+    /* height:400px; */
+    height: 430px;
+    width: 350px;
+    width: 23%;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.box-img {
+    background-size: cover;
+    height: 303.700px;
+    margin-top: 0.6rem;
+    margin-bottom: 1rem;
+    /* height:70%; */
+}
+
+.box-content {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 44px;
+}
+
+.box-content h2 {
+    font-size: 1.37rem;
+    font-family: 'Amazon Ember V2', sans-serif;
+    font-weight: 700;
+}
+
+.box-content a {
+    font-family: 'Amazon Ember V2', sans-serif;
+    color: #2162A1;
+    /* color:#007185; */
+    font-size: 0.91rem;
+}
+
+.blank {
+    height: 15px;
+    background-color: #e2e7e6;
+}
+
+.signin2 {
+    height: 208.200px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signin2first {
+    width: 1479.200px;
+    height: 148.200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    padding-top: 10px;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    line-height: 20px;
+    margin-top: 23px;
+    display: block;
+    align-items: center;
+}
+
+.signin2first h2 {
+    /* height: 32px; */
+    padding-bottom: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-family: 'Amazon Ember V2', sans-serif;
+    font-size: 1.5rem;
+    line-height: 32px;
+}
+
+.signin2first button {
+    background-color: #FFD814;
+    height: 30px;
+    width: 243.062px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-family: 'Amazon Ember V2', sans-serif;
+    font-size: 0.87rem;
+    line-height: 30px;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    border-radius: 25px;
+    margin-top: 1.5px;
+}
+
+.signin2second {
+    font-family: 'Amazon Ember V2', sans-serif;
+    font-size: 0.6875rem;
+    height: 15px;
+    width: 1439.200px;
+    margin-top: 1.5px;
+}
+
+.signin2second a {
+    color: #2162a1;
+    line-height: 15px;
+    font-family: 'Amazon Ember V2', sans-serif;
+}
+
+.signin2third {
+    padding-top: 25px;
+}
+
+/* footer */
+.footerpanel1 {
+    /* margin-top:15px; */
+    height: 49px;
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.91rem;
+    font-family: 'Amazon Ember V2', sans-serif;
+}
+
+.big-footerpanel {
+    height: 558px;
+    background-color: #232F3E;
+}
+
+.footerpanel2 {
+    background-color: #232F3E;
+    color: white;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content:space-evenly; */
+    justify-content: center;
+    height: 73%;
+}
+
+ul {
+    margin-top: 47px;
+}
+
+.footerpanel2 a {
+    display: block;
+    font-family: 'Amazon Ember V2', sans-serif;
+    font-size: 0.91rem;
+    color: #DDDDDD;
+    margin-bottom: 10px;
+}
+
+.footerpanel2 p {
+    font-family: 'Amazon Ember V2', sans-serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-bottom: 14px;
+    margin-top: 6px;
+}
+
+.blank2 {
+    width: 100px;
+}
+
+.line {
+    border-top: 0.05px solid #3a4553;
+}
+
+.footerpanel3 {
+    /* background-color:#232F3E; */
+    height: 68px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 264.400px;
+    margin-right: 264.400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerlogo {
+    background-image: url(/Resources/amazon_logo.png);
+    background-size: cover;
+    width: 100px;
+    height: 60px;
+    padding-left: 7.200px;
+    padding-right: 7.2px;
+}
+
+.options {
+    margin-left: 70px;
+    margin-top: 18px;
+}
+
+.options select {
+    width: 113px;
+    height: 32.200px;
+    font-size: 0.85rem;
+    border: 1px solid #848688;
+    background-color: #232F3E;
+    color: white;
+    font-family: 'Amazon Ember V2', sans-serif;
+    border-radius: 3px;
+    margin-right: 4px;
+}
+
+.footerpanel4 {
+    background-color: #131A22;
+    height: 77.200px;
+    color: #DDDDDD;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 0.75rem;
+    display: block;
+}
+
+
+.extras a {
+    line-height: 18px;
+    padding-left: 7.2px;
+    padding-right: 7.2px;
+    font-family: 'Amazon Ember V2', sans-serif;
+    height: 19.2px;
+    font-weight: 400;
+}
+
+.copyright {
+    font-family: 'Amazon Ember V2', sans-serif;
+    line-height: 18px;
+    height: 18px;
+    font-weight: 400;
+}
