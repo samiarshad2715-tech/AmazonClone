@@ -452,7 +452,7 @@ ul {
 }
 
 .footerlogo {
-    background-image: url(/Resources/amazon_logo.png);
+    background-image: url(Resources/amazon_logo.png);
     background-size: cover;
     width: 100px;
     height: 60px;
